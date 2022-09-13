@@ -10,16 +10,16 @@ ______          _           _              _____ _           _    ______ _____  
 \_|  |_|  \___/|_|\___|\___|\__|           \____/_| |_|\__,_|\__| \_| \_|\___/  \___/\_|  |_/ ///
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// 																							   //
+// 																																												     //
 // INFO: Proiectul este alcatuit dintr-un server si un client si are ca tematica construirea   // 
-// unei camere virtuale unde participantii pot comunica intre ei.							   //
+// unei camere virtuale unde participantii pot comunica intre ei.							                 //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// COMPILARE: In cazul in care fisierele nu sunt compilate se va folosii urmatoarea comanda:   //
-//  																						   //
-// SERVER: gcc -pthread -o server.c server													   //
-//																							   //
-// Client: gcc -pthread -o client.c client													   //
-//																							   //
+// COMPILARE: Se vor executa urmatoarele comenzi:                                              //
+//  																						                                               //
+// SERVER: gcc -pthread -o server.c server													                           //
+//																							  																					   //
+// Client: gcc -pthread -o client.c client																			   					   //
+//																							 																					     //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // INSTRUCTIUNI:																			   //
 // Pas 1: se lanseaza serverul in executie : ./server										   //
