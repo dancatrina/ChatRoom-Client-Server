@@ -1,5 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
 ______          _           _              _____ _           _    ______ _____  ________  ___ ///
 | ___ \        (_)         | |            /  __ \ |         | |   | ___ \  _  ||  _  |  \/  | ///
 | |_/ / __ ___  _  ___  ___| |_   ______  | /  \/ |__   __ _| |_  | |_/ / | | || | | | .  . | ///
@@ -8,29 +10,29 @@ ______          _           _              _____ _           _    ______ _____  
 \_|  |_|  \___/|_|\___|\___|\__|           \____/_| |_|\__,_|\__| \_| \_|\___/  \___/\_|  |_/ ///
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// 																							                                               //
+// 																							   //
 // INFO: Proiectul este alcatuit dintr-un server si un client si are ca tematica construirea   // 
-// unei camere virtuale unde participantii pot comunica intre ei.							                 //
+// unei camere virtuale unde participantii pot comunica intre ei.							   //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// COMPILARE: Se vor executa urmatoarele comenzi                                               //
-//  																						                                               //
-// SERVER: gcc -pthread -o server.c server													                           //
-//																							                                               //
-// Client: gcc -pthread -o client.c client													                           //
-//																							                                               //
+// COMPILARE: In cazul in care fisierele nu sunt compilate se va folosii urmatoarea comanda:   //
+//  																						   //
+// SERVER: gcc -pthread -o server.c server													   //
+//																							   //
+// Client: gcc -pthread -o client.c client													   //
+//																							   //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// INSTRUCTIUNI:	( OS REQUIRED : LINUX )																		                   //
-// Pas 1: se lanseaza serverul in executie : ./server										                       //
-// 																							                                               //
-// Pas 2: Se face conexiune la server prin intermediul clientului:							               //
-//        																					                                           //
-//        Comanda este de forma:  ./client <IP>:<PORT> <NUME_UTILIZATOR>					             //
-//						  																	                                             //
-//					    Exemplu:  ./client 37.120.249.45:8109 Dan							                         //
+// INSTRUCTIUNI:																			   //
+// Pas 1: se lanseaza serverul in executie : ./server										   //
+// 																							   //
+// Pas 2: Se face conexiune la server prin intermediul clientului:							   //
+//        																					   //
+//        Comanda este de forma:  ./client <IP>:<PORT> <NUME_UTILIZATOR>					   //
+//						  																	   //
+//					    Exemplu:  ./client 37.120.249.45:8109 Dan							   //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-//																							                                               //
-// 												   											                                             //
-//  Credit : Catrina-Ilie Dan	                                    Versiune: 0.1B			         //
-//  																		   				                                             //
-//																							                                               //
+//																							   //
+// 												   											   //
+//  Credit : Catrina-Ilie Dan	                                    Versiune: 0.1B			   //
+//  																		   				   //
+//																							   //
 /////////////////////////////////////////////////////////////////////////////////////////////////
