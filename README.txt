@@ -12,23 +12,23 @@ ______          _           _              _____ _           _    ______ _____  
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                             //
 // INFO: Proiectul este alcatuit dintr-un server si un client si are ca tematica construirea   // 
-// unei camere virtuale unde participantii pot comunica intre ei.							                 //
+// unei camere virtuale unde participantii pot comunica intre ei.                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // COMPILARE: Se vor executa urmatoarele comenzi:                                              //
 //  																						                                               //
 // SERVER: gcc -pthread -o server.c server													                           //
 //																							  																					   //
 // Client: gcc -pthread -o client.c client																			   					   //
-//																							 																					     //
+//                                                                                             //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// INSTRUCTIUNI:																			   //
-// Pas 1: se lanseaza serverul in executie : ./server										   //
-// 																							   //
-// Pas 2: Se face conexiune la server prin intermediul clientului:							   //
-//        																					   //
-//        Comanda este de forma:  ./client <IP>:<PORT> <NUME_UTILIZATOR>					   //
-//						  																	   //
-//					    Exemplu:  ./client 37.120.249.45:8109 Dan							   //
+// INSTRUCTIUNI:        (OS Required: LINUX)                                                   //
+// Pas 1: se lanseaza serverul in executie : ./server                                          //
+//                                                                                             //
+// Pas 2: Se face conexiune la server prin intermediul clientului:                             //
+//                                                                                             //
+//        Comanda este de forma:  ./client <IP>:<PORT> <NUME_UTILIZATOR>                       //
+//                                                                                             //
+//					    Exemplu:  ./client 37.120.249.45:8109 Dan                                      //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //																							  																						 //
 // 												   											   //
